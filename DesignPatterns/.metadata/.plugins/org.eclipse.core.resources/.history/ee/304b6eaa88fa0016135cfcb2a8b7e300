@@ -1,0 +1,10 @@
+
+public class StrategyManager {
+
+	TaxStrategy strategy = new NgoStrategy();
+	
+	public StrategyManager(Company company) {
+		
+	}
+	
+}

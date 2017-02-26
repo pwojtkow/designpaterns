@@ -1,0 +1,24 @@
+
+public class EmployeeDecorator implements Employee{
+
+	Employee decorator = new EmployeeImpl();
+	
+	public EmployeeDecorator(Employee employee) {
+		
+	}
+	
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+}

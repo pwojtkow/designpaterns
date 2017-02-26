@@ -1,0 +1,7 @@
+
+public class Core {
+	public void doSomething() {
+		String[] args = {"Ala", "ma", "kota"};
+		EventDispatcher.dispatch("bazwa.zdarzenia", args);
+	}
+}

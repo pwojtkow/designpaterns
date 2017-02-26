@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class EventDispatcher {
+
+	Map<String, List<Plugin>> mappedPlugins = new HashMap<String, List<Plugin>>();
+	List<Plugin> plugins = new ArrayList<Plugin>(0);
+	public void connect(String nazwaZdarzenia, Plugin plugin) {
+		plugins.add(plugin);
+		mappedPlugins.put(nazwaZdarzenia, plugins);
+	}
+}

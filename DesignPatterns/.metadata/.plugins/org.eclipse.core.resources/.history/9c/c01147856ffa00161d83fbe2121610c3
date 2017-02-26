@@ -1,0 +1,8 @@
+
+public abstract class Filter {
+
+	void handle(){};
+	void setNextHandler(Filter nextFilter){};
+	
+	
+}

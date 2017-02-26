@@ -1,0 +1,11 @@
+
+public class EmployeeImpl implements Employee{
+
+	private String name;
+	
+	@Override
+	public void print() {
+		System.out.println(name);
+	}
+
+}

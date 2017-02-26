@@ -1,0 +1,9 @@
+
+public class ImageFactory {
+
+	public Image createImage() {
+		
+		
+	}
+	
+}

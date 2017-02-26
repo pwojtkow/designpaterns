@@ -1,0 +1,19 @@
+
+public class Company {
+
+	private String type;
+	private double income;
+	
+	public void calculateTax(TaxStrategy strategy) {
+		strategy.calculate(this);
+	}
+
+	public Company(String type, int income) {
+		super();
+		this.type = type;
+		this.income = income;
+	};
+	
+	
+	
+}

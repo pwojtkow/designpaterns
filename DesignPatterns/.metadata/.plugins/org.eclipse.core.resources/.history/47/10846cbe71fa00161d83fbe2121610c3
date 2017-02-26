@@ -1,0 +1,21 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+	
+		Mail mail1 = new PolandMail("Wiadomosc", "nieHTML", "Polska");
+		Mail mail2 = new ChinaMail("dluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuga wiadomsc od Pana Chinczyka", "HTML", "Chiny");
+		
+		Filter f1 = new SubjectFilter();
+		Filter f2 = new BodyFilter();
+		Filter f3 = new SenderFilter();
+		
+		f1.setNextHandler(f2);
+		f2.setNextHandler(f3);
+		System.out.println(f1.getNextHandler());
+		
+		f1.handle(mail1);
+		
+	}
+	
+}

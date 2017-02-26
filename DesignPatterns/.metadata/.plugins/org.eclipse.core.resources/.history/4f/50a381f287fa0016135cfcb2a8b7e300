@@ -1,0 +1,9 @@
+
+public class StrategyDemo {
+
+	public static void main(String[] args) {
+		Company ngo = new Company("ngo", 123456);
+		Company regualar = new Company("regular", 123456);
+	}
+
+}

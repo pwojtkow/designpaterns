@@ -1,0 +1,6 @@
+
+public interface TaxStrategy {
+
+	int calculate(Company company);
+	
+}

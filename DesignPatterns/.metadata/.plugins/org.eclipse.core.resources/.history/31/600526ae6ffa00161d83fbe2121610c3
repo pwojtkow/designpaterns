@@ -1,0 +1,12 @@
+
+public abstract class Filter {
+
+	protected Filter nextHandler;
+	
+	void handle(){};
+	void setNextHandler(Filter nextFilter){
+		this.nextHandler = nextFilter;
+	};
+	
+	
+}

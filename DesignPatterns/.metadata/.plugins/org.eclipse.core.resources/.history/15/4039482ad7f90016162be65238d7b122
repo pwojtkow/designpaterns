@@ -1,0 +1,17 @@
+
+public class EmployeeImpl implements Employee{
+
+	private String name;
+	
+	@Override
+	public void print() {
+		System.out.println(name);
+	}
+
+	@Override
+	public void addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

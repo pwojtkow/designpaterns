@@ -1,0 +1,14 @@
+
+public abstract class Mail {
+
+	protected String subject;
+	protected String body;
+	protected String sender;
+	
+	public Mail(String subject, String body, String sender) {
+		this.subject = subject;
+		this.body = body;
+		this.sender = sender;
+	}
+	
+}

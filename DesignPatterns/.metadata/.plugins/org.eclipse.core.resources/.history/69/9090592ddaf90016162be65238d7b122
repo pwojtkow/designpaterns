@@ -1,0 +1,33 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public class EmployeeImpl implements Employee {
+
+	private String name;
+	private List<EmployeeImpl> employees = new ArrayList<EmployeeImpl>(0);
+	
+	@Override
+	public void print() {
+		System.out.println(name);
+		for (EmployeeImpl e : employees) {
+			System.out.println(e.getName());
+		}
+		
+	}
+
+	@Override
+	public void addEmployee(Employee employee) {
+		employees.add(employee);
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	
+	
+}

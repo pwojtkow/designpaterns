@@ -1,0 +1,10 @@
+
+public class RegularStrategy implements TaxStrategy{
+
+	@Override
+	public int calculate(Company company) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

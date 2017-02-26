@@ -1,0 +1,35 @@
+
+public class Company {
+
+	private String type;
+	private double income;
+	
+	public double calculateTax(TaxStrategy strategy) {
+		strategy.calculate(this);
+	}
+
+	public Company(String type, double income) {
+		super();
+		this.type = type;
+		this.income = income;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public double getIncome() {
+		return income;
+	}
+
+	public void setIncome(double income) {
+		this.income = income;
+	};
+	
+	
+	
+}

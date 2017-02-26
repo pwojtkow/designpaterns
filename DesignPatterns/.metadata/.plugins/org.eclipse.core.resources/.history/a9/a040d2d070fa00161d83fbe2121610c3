@@ -1,0 +1,8 @@
+
+public class BodyFilter extends Filter{
+
+	public void handle() {
+		
+	};
+	
+}

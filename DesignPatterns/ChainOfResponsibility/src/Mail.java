@@ -1,0 +1,49 @@
+
+public abstract class Mail {
+
+	protected String subject;
+	protected String body;
+	protected String sender;
+	protected String bodyType;
+	
+	public Mail(String subject, String bodyType, String sender) {
+		this.subject = subject;
+		this.bodyType = bodyType;
+		this.sender = sender;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public String getBody() {
+		return body;
+	}
+
+	public void setBody(String body) {
+		this.body = body;
+	}
+
+	public String getSender() {
+		return sender;
+	}
+
+	public void setSender(String sender) {
+		this.sender = sender;
+	}
+
+	public String getBodyType() {
+		return bodyType;
+	}
+
+	public void setBodyType(String bodyType) {
+		this.bodyType = bodyType;
+	}
+	
+	
+	
+}

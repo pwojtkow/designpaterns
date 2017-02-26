@@ -1,0 +1,8 @@
+
+public abstract class Mail {
+
+	protected String subject;
+	protected String body;
+	protected String sender;
+	
+}

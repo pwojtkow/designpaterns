@@ -1,0 +1,11 @@
+
+public class Company {
+
+	private String type;
+	private int income;
+	
+	public void calculateTax() {
+		
+	};
+	
+}

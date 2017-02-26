@@ -1,0 +1,10 @@
+
+public class PolandMail extends Mail{
+
+	public PolandMail(String subject, String body, String sender) {
+		this.subject = subject;
+		this.body = body;
+		this.sender = sender;
+	}
+	
+}
